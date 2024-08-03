@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./design/live-site.png)
 
 ### Links
 
-- Frontend Mentor Solution -> 
-- Live Site -> 
+- Frontend Mentor Solution -> https://www.frontendmentor.io/solutions/order-summary-card--LZxMqr6T3
+- Live Site -> https://natashaac.github.io/Challenge-Order_Summary/
 
 ## My process
 
