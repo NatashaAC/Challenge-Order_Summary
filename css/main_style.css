@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background: url('../images/pattern-background-desktop.svg') hsl(225, 100%, 94%) no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+}
+
+main {
+    max-width: 1200px;
+}
+
+.card {
+    max-width: 400px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(225, 100%, 100%);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.cardHero {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.cardBody {
+    padding: 30px 50px;
+}
+
+.cardTitle {
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+
+.cardPara {
+    margin-bottom: 15px;
+    color: hsl(224, 23%, 55%);
+}
+
+.planInfo {
+    display: flex;
+    padding: 15px;
+    background-color: hsl(225, 100%, 98%);
+    width: 100%;
+    font-size: 12px;
+    border-radius: 10px;
+    text-align: left;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.planInfo h3 {
+    font-weight: 900;
+}
+
+.planInfo p {
+    color: hsl(224, 23%, 55%);
+    padding-top: 5px;
+}
+
+.planIcon {
+    width: 35px;
+}
+
+.planLink {
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+
+.planLink:hover {
+    color: hsl(245, 75%, 65%);
+    text-decoration: none;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.paymentBtn {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 100%);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 15px 10px hsl(245, 75%, 90%);
+}
+
+.paymentBtn:hover {
+    background-color: hsl(245, 75%, 65%);
+}
+
+.cancelBtn {
+    color: hsl(224, 23%, 55%);
+    background: none;
+    border: none;
+}
+
+.cancelBtn:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.credits {
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    color: hsl(223, 47%, 23%);
+    font-size: 12px;
+}
+
+.credits p a {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-style: italic;
+}
